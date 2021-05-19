@@ -8,41 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		0D39D204343E9EF790C98B34036E8957 /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A0B888ACADD7F068FF64EED303C862 /* BHConfig.m */; };
-		215C833A771754B62B6D385B8C1B4190 /* BHService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC116E8A3C09C4A03089D3DAA2542B7 /* BHService.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2354EEE442AC3C63B36B5DFE8D62003E /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2E583B47044CCD365A26E10896A371 /* BHContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		27BE1B71745D64441334205E97415791 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4479622DF97D33D174FACE18AFC29259 /* BHConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3CF00809784FB5931679BB5CF2CDCC1D /* BeeHive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A91EB0EE6CB6C35E7CDBED060FF6A99B /* BeeHive-dummy.m */; };
 		420A9D20C74D661F8314C0999AAAB18D /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 649186223B4E3B1B6FD90C9A92929123 /* BHTimeProfiler.m */; };
 		42DEE8898D5BDFD56DA0B4E509E1D1EA /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC0F3DD60F333EEA3DFC2C55EA862E6 /* BHWatchDog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45587AF98A1922A54821F47ED6317CD5 /* CHBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6FDC99773B7B29F068764DB93AA28D /* CHBaseTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B1FE27C3BAE26D5C1D6312ECAC97716 /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0A5D3500AEAA875A19397A4C398FA6 /* BHRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5506550639F302B0E3E5338DDE86AD5D /* CHBaseNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 582AAFB110679E64263A8C65221ADBE0 /* CHBaseNavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5690BD3B7B46DB7C7A18B10B46D1C128 /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 415A23742C9FA09ADC390760B68FB29D /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63582234F87E68FE88C92A99E9AB054F /* MacroHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0211848955894BCBE7ED3CEAC5A447B4 /* MacroHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		66B19CAA8A553678A62CFCD243D9D261 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75383AD4B9A7827850CA1EF76E22F85 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-dummy.m */; };
 		6FA17DF682D85A68D0291988E741E8A4 /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 697AC81204AEAF384F8EA9AD164C3AA5 /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		78CE0B013D671143E521C30B5959E28A /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2097D6BC53218D54B104744AAC54D735 /* BHContext.m */; };
+		7E408803F4B0133E7D6A2D5F0B2F7499 /* CHBaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B6CCAAE88019885299985A8C90ECF /* CHBaseNavigationBar.m */; };
 		844970494996AC33CCFDDA50E1A9B1E0 /* Pods-CHBeeHiveSuperProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB36BE6B6B50F60DF7284070796B23C /* Pods-CHBeeHiveSuperProjectTests-dummy.m */; };
-		8BDD6D27BA860CEEB5D8A976E7D6F42F /* CHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FB93F21AF42772A1E870B868FEC0C /* CHBaseViewController.m */; };
 		95C84DF76B3BEF1C2943C6725D7D9DDB /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9113E92D72E79419B343827D7D3D57C1 /* BeeHive.m */; };
-		981173AD91922AF9981C059FAF4D5B6A /* CHBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C2325964FCF7838FE9130458FF1644 /* CHBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9C6A921FACB8A851BDA4145B728DEDB1 /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3054C05C23388D1F2F9F4B06CEE66DAE /* BHWatchDog.m */; };
+		A08009F9E00C1180D7C4DFFA0992225F /* CHBaseNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D10527834E07B460430FC8323599E9BA /* CHBaseNavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A3D42CB24174DBD2831EDE75A5A169B6 /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B700EA89E4EAE7320F0D9B801E60B8 /* BeeHive.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6C472D16529B41C138311BB69D622E4 /* MacroHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED375967F7022246DA08711BD42CC40 /* MacroHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A709B7FA141B9C465CA8C148C40F797B /* CHBaseNavigatonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23630C79A51548B1D03F08EF83A25219 /* CHBaseNavigatonViewController.m */; };
-		A96EA3D7CAE20FA4FF28F6AA9FFFCB46 /* CHBaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C28A4F534C1988E057180D0D4110BF7D /* CHBaseNavigationBar.m */; };
+		AB567673F55DD3A6F5347F0A751AA0DC /* BHService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE5F9FAA0482E66DC3684CAC0D540BB /* BHService.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AE93E5B11D407C75BA43A1438252A579 /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A41087FC161B8A43CF6255577AC6FC0B /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B71CD5987F6EDFBD0F8FBF3F1713DD44 /* TextFontColorMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF5E9D6788280029B08A418F4B9C4D9 /* TextFontColorMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC6B1B2EEDE40B99874146915FA106EE /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1E9621E4873903EADF1CCFFA06A6F5 /* BHModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BDDD063CF1E260EA5D98F1A79F2C474E /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = B592BE4D5CA4434634E2F1AFF06161A3 /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE1A5E972AB569E9B50D7483B32E4134 /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDA3BFBA1BC31EA02D7E64D91FF60A /* BHAnnotation.m */; };
 		C40E4C6A83938421D86F5E171DFC1649 /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E981C9CB2FE603CA5BD32288FADA44B /* BHServiceManager.m */; };
-		C7C3ED995EE96431F8DCE9920120FC4C /* CHBaseNavigatonViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE3D2A00AB5487D500CBF48F5A23E9B /* CHBaseNavigatonViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CA50CDCF4C82B1158707F37BE81A4A4A /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D25E992D4942DDE5FEC0733392862BEA /* BHAppDelegate.m */; };
-		CF0E395A2FA2C1C014DFB0F5A6A58A03 /* CHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88B96E8865977268416477F11D98957 /* CHBaseTableViewController.m */; };
 		D05F7249AB03CB19754AD8109893EA92 /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92260E001EF18E6FE820873115D54890 /* BHRouter.m */; };
 		D32577F098FD03A9A9A75150C74106E2 /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EF97244B69DE3962FB717615AAB657 /* BHCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E025A0B58334E41F2E954F0E42F5F295 /* Pods-CHBeeHiveSuperProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B89387B8821519675F775F1B2D749F /* Pods-CHBeeHiveSuperProject-dummy.m */; };
-		EC01538239CCE0EB002750BF9DFB03E3 /* CHBaseAndToos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D07A6E28993E2DEC85082D69197F4577 /* CHBaseAndToos-dummy.m */; };
-		F15D87861A26576B1844E30E22B054D7 /* TextFontColorMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 776DC662666D4793A2DACA06267C298D /* TextFontColorMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC74976DAF6784DB886F17217E7415B0 /* CHBaseAndToos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F652584455864F9441625BC374DC8DA /* CHBaseAndToos-dummy.m */; };
 		F80D8F2A0768DCD33B8BEB9ED57A08A6 /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A71A11DF0B5F6A92A276CDDD25251382 /* BHServiceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC874533F3E801AC7753EA75D92119D5 /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E5E8BDE52DD257E4C1470BD6002C8 /* BHModuleManager.m */; };
 		FE24233DEC411E3B2F8A32DC88D8448C /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1673F22224C4C6A1CE678607F0E3A29F /* BHAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -50,35 +44,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3785484D64742341FCC30FD031BB83E1 /* PBXContainerItemProxy */ = {
+		40CDF8485C30EC7E5232E87C4D4D1232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
+			remoteInfo = BeeHive;
+		};
+		6D6C2F03B8542D75F16432307546B540 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C2E99EF327EB901AED69289FB2B787A8;
 			remoteInfo = CHBaseAndToos;
 		};
-		3AD03B92C70CD581EC7896518F0FA8E0 /* PBXContainerItemProxy */ = {
+		73EA776D8BA9BEE79C7A948472902DF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
 			remoteInfo = BeeHive;
 		};
-		5BCC3278AEC9321CA0316C18887623D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
-			remoteInfo = BeeHive;
-		};
-		CC19B12312B9B63BF2EDAD15D34BE753 /* PBXContainerItemProxy */ = {
+		C0AFA71F642F84BA0A0089164DCF0B05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BA4832D9FB93D2760969C904A2209AB2;
 			remoteInfo = "Pods-CHBeeHiveSuperProject";
 		};
-		DD1D8902FDD2345AF73C782D38029951 /* PBXContainerItemProxy */ = {
+		C41C19E57ECA1EA877569C228B1B41A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -88,46 +82,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0211848955894BCBE7ED3CEAC5A447B4 /* MacroHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
 		047B2197318D6AAA3E74F948DA9A0C65 /* Pods-CHBeeHiveSuperProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBeeHiveSuperProject.release.xcconfig"; sourceTree = "<group>"; };
+		069B6CCAAE88019885299985A8C90ECF /* CHBaseNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHBaseNavigationBar.m; sourceTree = "<group>"; };
 		0DB36BE6B6B50F60DF7284070796B23C /* Pods-CHBeeHiveSuperProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHBeeHiveSuperProjectTests-dummy.m"; sourceTree = "<group>"; };
 		1673F22224C4C6A1CE678607F0E3A29F /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
 		2097D6BC53218D54B104744AAC54D735 /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = BeeHive/BHContext.m; sourceTree = "<group>"; };
 		20D3CC5713CFD23973BAC99E5CDEC99F /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23630C79A51548B1D03F08EF83A25219 /* CHBaseNavigatonViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHBaseNavigatonViewController.m; sourceTree = "<group>"; };
 		26F591A3192D40B3A445F2C5EE87FE3B /* libBeeHive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBeeHive.a; path = libBeeHive.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EF97244B69DE3962FB717615AAB657 /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = BeeHive/BHCommon.h; sourceTree = "<group>"; };
-		2ED375967F7022246DA08711BD42CC40 /* MacroHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
 		3054C05C23388D1F2F9F4B06CEE66DAE /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
-		363FAB2A2C388AC951D79AAC7430D288 /* CHBaseAndToos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHBaseAndToos-prefix.pch"; sourceTree = "<group>"; };
 		3AAD6F5DBA1E0E352FCBA3EEE2891275 /* Pods-CHBeeHiveSuperProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHBeeHiveSuperProject-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E40CDBA62CE249E7035B99A09AD61A1 /* BeeHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.debug.xcconfig; sourceTree = "<group>"; };
 		4045DC2BE9352E0402BE147D40131F33 /* Pods-CHBeeHiveSuperProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHBeeHiveSuperProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		415A23742C9FA09ADC390760B68FB29D /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
 		4479622DF97D33D174FACE18AFC29259 /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = BeeHive/BHConfig.h; sourceTree = "<group>"; };
-		4524782BF11786E4C21F182F8CCCD8C1 /* CHBaseAndToos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHBaseAndToos.release.xcconfig; sourceTree = "<group>"; };
 		4CA8FEC724C97E868CECFBDA4E8882BE /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4CC116E8A3C09C4A03089D3DAA2542B7 /* BHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BHService.h; sourceTree = "<group>"; };
 		56863522DA2206D86E2BD93C2376395F /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
-		582AAFB110679E64263A8C65221ADBE0 /* CHBaseNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHBaseNavigationBar.h; sourceTree = "<group>"; };
 		5CBB88A08822D9529E03A80D5CEE93BD /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F652584455864F9441625BC374DC8DA /* CHBaseAndToos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHBaseAndToos-dummy.m"; sourceTree = "<group>"; };
 		649186223B4E3B1B6FD90C9A92929123 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
 		652C57C9D38C773B13E75486169A0DDE /* Pods-CHBeeHiveSuperProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBeeHiveSuperProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		697AC81204AEAF384F8EA9AD164C3AA5 /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
-		776DC662666D4793A2DACA06267C298D /* TextFontColorMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextFontColorMacro.h; sourceTree = "<group>"; };
+		6F3D2C4ED9FE9F4EEBFE0269437CA405 /* CHBaseAndToos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHBaseAndToos.debug.xcconfig; sourceTree = "<group>"; };
+		741AD1F7B8F1F6BC962586C2CE733F0F /* CHBaseAndToos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CHBaseAndToos.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		77B89387B8821519675F775F1B2D749F /* Pods-CHBeeHiveSuperProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHBeeHiveSuperProject-dummy.m"; sourceTree = "<group>"; };
 		7A168E4C3DD80DAD71AE6A7CE5B43683 /* Pods-CHBeeHiveSuperProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHBeeHiveSuperProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BE5F9FAA0482E66DC3684CAC0D540BB /* BHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BHService.h; sourceTree = "<group>"; };
 		80E8D66EDB795BB83855731301B7BAE3 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-resources.sh"; sourceTree = "<group>"; };
-		839FB93F21AF42772A1E870B868FEC0C /* CHBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHBaseViewController.m; sourceTree = "<group>"; };
-		8A34F1966A416B3682B361F66ABA57CB /* CHBaseAndToos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHBaseAndToos.debug.xcconfig; sourceTree = "<group>"; };
-		8AE3D2A00AB5487D500CBF48F5A23E9B /* CHBaseNavigatonViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHBaseNavigatonViewController.h; sourceTree = "<group>"; };
+		8DF5E9D6788280029B08A418F4B9C4D9 /* TextFontColorMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextFontColorMacro.h; sourceTree = "<group>"; };
 		8EC0F3DD60F333EEA3DFC2C55EA862E6 /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
 		9113E92D72E79419B343827D7D3D57C1 /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = BeeHive/BeeHive.m; sourceTree = "<group>"; };
 		92260E001EF18E6FE820873115D54890 /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = BeeHive/BHRouter.m; sourceTree = "<group>"; };
 		9C0A5D3500AEAA875A19397A4C398FA6 /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = BeeHive/BHRouter.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E6FDC99773B7B29F068764DB93AA28D /* CHBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHBaseTableViewController.h; sourceTree = "<group>"; };
 		9E981C9CB2FE603CA5BD32288FADA44B /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
-		A36FAB56EFE82660EE04B6FD6EAC1176 /* CHBaseAndToos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CHBaseAndToos.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3F4EDD24DDE88BE7005848223CEC060 /* BeeHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.release.xcconfig; sourceTree = "<group>"; };
 		A41087FC161B8A43CF6255577AC6FC0B /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
 		A4DDA3BFBA1BC31EA02D7E64D91FF60A /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
@@ -137,27 +126,26 @@
 		A94013A198E34104F91223690895F7B0 /* libPods-CHBeeHiveSuperProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHBeeHiveSuperProjectTests.a"; path = "libPods-CHBeeHiveSuperProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9935FBBF7B2DAA4467129A6857A1A24 /* Pods-CHBeeHiveSuperProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHBeeHiveSuperProject-acknowledgements.plist"; sourceTree = "<group>"; };
 		AC2E583B47044CCD365A26E10896A371 /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = BeeHive/BHContext.h; sourceTree = "<group>"; };
-		ACF7788E899984476178252600FCF3DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B592BE4D5CA4434634E2F1AFF06161A3 /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
 		B91A42FBB291C93DC92CA9A5C588A7F7 /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
+		BA671252C409D6886F4A240B44501D7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BB493BFC33861006F54044103E533142 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD1E9621E4873903EADF1CCFFA06A6F5 /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
-		C28A4F534C1988E057180D0D4110BF7D /* CHBaseNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHBaseNavigationBar.m; sourceTree = "<group>"; };
 		C509A5DC21A4D17977455488E354BF8F /* libCHBaseAndToos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCHBaseAndToos.a; path = libCHBaseAndToos.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75383AD4B9A7827850CA1EF76E22F85 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-dummy.m"; sourceTree = "<group>"; };
 		C83E5E8BDE52DD257E4C1470BD6002C8 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
 		C9F69C8F6F8A269433998DFEA125F5A5 /* Pods-CHBeeHiveSuperProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBeeHiveSuperProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		CAEB4EA189325E96B80BE32DAB0676F0 /* Pods-CHBeeHiveSuperProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBeeHiveSuperProject.debug.xcconfig"; sourceTree = "<group>"; };
-		CCBEE287258D35EEBE946859C7A374D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D07A6E28993E2DEC85082D69197F4577 /* CHBaseAndToos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHBaseAndToos-dummy.m"; sourceTree = "<group>"; };
+		D10527834E07B460430FC8323599E9BA /* CHBaseNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHBaseNavigationBar.h; sourceTree = "<group>"; };
 		D25E992D4942DDE5FEC0733392862BEA /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
 		D47B937900FF3CAE7E492FFACE44F246 /* libPods-CHBeeHiveSuperProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHBeeHiveSuperProject.a"; path = "libPods-CHBeeHiveSuperProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A0B888ACADD7F068FF64EED303C862 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = BeeHive/BHConfig.m; sourceTree = "<group>"; };
-		D88B96E8865977268416477F11D98957 /* CHBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHBaseTableViewController.m; sourceTree = "<group>"; };
 		E0B700EA89E4EAE7320F0D9B801E60B8 /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = BeeHive/BeeHive.h; sourceTree = "<group>"; };
+		E31B57B8903125A8C49F93E2084DC8B9 /* CHBaseAndToos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHBaseAndToos.release.xcconfig; sourceTree = "<group>"; };
 		E3238591501EE9302E0852543D0C2078 /* Pods-CHBeeHiveSuperProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHBeeHiveSuperProject-resources.sh"; sourceTree = "<group>"; };
 		E8BBA728578EE3BDCE966CA0512A61D9 /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a"; path = "libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DF9F754BC2F7E964981578A6EB327B /* BeeHive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-prefix.pch"; sourceTree = "<group>"; };
-		F6C2325964FCF7838FE9130458FF1644 /* CHBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHBaseViewController.h; sourceTree = "<group>"; };
+		FFFE9C7CE4255A5FF9403244AF4FFD82 /* CHBaseAndToos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHBaseAndToos-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,14 +163,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD0B42C4BFF537CB4E15598AB1CFA6B9 /* Frameworks */ = {
+		9D22B731E8D45F80D464836B21750C55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F532C499AF9734FF1F639B374CDC1263 /* Frameworks */ = {
+		CD0B42C4BFF537CB4E15598AB1CFA6B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,28 +243,23 @@
 			path = "Target Support Files/Pods-CHBeeHiveSuperProject";
 			sourceTree = "<group>";
 		};
-		1DCFD9D72D645DE18187B20D8208D049 /* BaseControllers */ = {
+		1C590D71865283048D1C704EA626903E /* BHConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				8AE3D2A00AB5487D500CBF48F5A23E9B /* CHBaseNavigatonViewController.h */,
-				23630C79A51548B1D03F08EF83A25219 /* CHBaseNavigatonViewController.m */,
-				9E6FDC99773B7B29F068764DB93AA28D /* CHBaseTableViewController.h */,
-				D88B96E8865977268416477F11D98957 /* CHBaseTableViewController.m */,
-				F6C2325964FCF7838FE9130458FF1644 /* CHBaseViewController.h */,
-				839FB93F21AF42772A1E870B868FEC0C /* CHBaseViewController.m */,
+				7BE5F9FAA0482E66DC3684CAC0D540BB /* BHService.h */,
 			);
-			name = BaseControllers;
-			path = CHBaseAndToos/BaseControllers;
+			name = BHConfiguration;
+			path = CHBaseAndToos/BHConfiguration;
 			sourceTree = "<group>";
 		};
-		2C0D07E9CE8E0FD335B86CAECE5A567D /* Toos */ = {
+		1D0FAF5E8235D916375C0B99EC2E1DC1 /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
-				2ED375967F7022246DA08711BD42CC40 /* MacroHeader.h */,
-				776DC662666D4793A2DACA06267C298D /* TextFontColorMacro.h */,
+				D10527834E07B460430FC8323599E9BA /* CHBaseNavigationBar.h */,
+				069B6CCAAE88019885299985A8C90ECF /* CHBaseNavigationBar.m */,
 			);
-			name = Toos;
-			path = CHBaseAndToos/Toos;
+			name = BaseViews;
+			path = CHBaseAndToos/BaseViews;
 			sourceTree = "<group>";
 		};
 		2D3ED004DD0D6DD6019D587CA2F0866B /* Pods-CHBeeHiveSuperProjectTests */ = {
@@ -304,25 +287,6 @@
 			path = "../Target Support Files/BeeHive";
 			sourceTree = "<group>";
 		};
-		3EFC24A58D49A9EA68AEA21E4BF1388E /* BHConfiguration */ = {
-			isa = PBXGroup;
-			children = (
-				4CC116E8A3C09C4A03089D3DAA2542B7 /* BHService.h */,
-			);
-			name = BHConfiguration;
-			path = CHBaseAndToos/BHConfiguration;
-			sourceTree = "<group>";
-		};
-		4D9B61B8FBBFAF7FD340950F8AE80096 /* BaseViews */ = {
-			isa = PBXGroup;
-			children = (
-				582AAFB110679E64263A8C65221ADBE0 /* CHBaseNavigationBar.h */,
-				C28A4F534C1988E057180D0D4110BF7D /* CHBaseNavigationBar.m */,
-			);
-			name = BaseViews;
-			path = CHBaseAndToos/BaseViews;
-			sourceTree = "<group>";
-		};
 		50A9D3FD738C57D60FC8C38BEDCCCE72 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +301,16 @@
 			path = "Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests";
 			sourceTree = "<group>";
 		};
+		675D08AF39CEEDED57961A580C916D65 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				741AD1F7B8F1F6BC962586C2CE733F0F /* CHBaseAndToos.podspec */,
+				BA671252C409D6886F4A240B44501D7B /* LICENSE */,
+				BB493BFC33861006F54044103E533142 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		6A534A8C155BC98766D0765D6E4AE1C0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,48 +321,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8C6A5A023306913ABB645A0BA01D065C /* Support Files */ = {
+		6E12204FF929838E56B0FE9A962EDBEB /* Toos */ = {
 			isa = PBXGroup;
 			children = (
-				D07A6E28993E2DEC85082D69197F4577 /* CHBaseAndToos-dummy.m */,
-				363FAB2A2C388AC951D79AAC7430D288 /* CHBaseAndToos-prefix.pch */,
-				8A34F1966A416B3682B361F66ABA57CB /* CHBaseAndToos.debug.xcconfig */,
-				4524782BF11786E4C21F182F8CCCD8C1 /* CHBaseAndToos.release.xcconfig */,
+				0211848955894BCBE7ED3CEAC5A447B4 /* MacroHeader.h */,
+				8DF5E9D6788280029B08A418F4B9C4D9 /* TextFontColorMacro.h */,
 			);
-			name = "Support Files";
-			path = "CHBeeHiveSuperProject/Pods/Target Support Files/CHBaseAndToos";
+			name = Toos;
+			path = CHBaseAndToos/Toos;
 			sourceTree = "<group>";
 		};
-		8EDD35FDE6C46A43D03F488C625B0C6B /* Development Pods */ = {
+		A3AB08BD76C4EFFD37825F99425D3DA5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B07C196B68B04B956F87019425A58D39 /* CHBaseAndToos */,
+				E2DC2C4E5761CB9D8E12F1F187B83161 /* CHBaseAndToos */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B07C196B68B04B956F87019425A58D39 /* CHBaseAndToos */ = {
-			isa = PBXGroup;
-			children = (
-				1DCFD9D72D645DE18187B20D8208D049 /* BaseControllers */,
-				4D9B61B8FBBFAF7FD340950F8AE80096 /* BaseViews */,
-				3EFC24A58D49A9EA68AEA21E4BF1388E /* BHConfiguration */,
-				B3288AAF73F1EDFD78F682C8115BF839 /* Pod */,
-				8C6A5A023306913ABB645A0BA01D065C /* Support Files */,
-				2C0D07E9CE8E0FD335B86CAECE5A567D /* Toos */,
-			);
-			name = CHBaseAndToos;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B3288AAF73F1EDFD78F682C8115BF839 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A36FAB56EFE82660EE04B6FD6EAC1176 /* CHBaseAndToos.podspec */,
-				ACF7788E899984476178252600FCF3DF /* LICENSE */,
-				CCBEE287258D35EEBE946859C7A374D6 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		B9849CC4AAE92A33E234B3ADDD864D58 /* Products */ = {
@@ -407,7 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8EDD35FDE6C46A43D03F488C625B0C6B /* Development Pods */,
+				A3AB08BD76C4EFFD37825F99425D3DA5 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				D9F9ADE51A866B7D2B475C48E3F9A873 /* Pods */,
 				B9849CC4AAE92A33E234B3ADDD864D58 /* Products */,
@@ -428,6 +376,31 @@
 				0CD2BFDC73A921BA237E9000D76A813A /* BeeHive */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2DC2C4E5761CB9D8E12F1F187B83161 /* CHBaseAndToos */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FAF5E8235D916375C0B99EC2E1DC1 /* BaseViews */,
+				1C590D71865283048D1C704EA626903E /* BHConfiguration */,
+				675D08AF39CEEDED57961A580C916D65 /* Pod */,
+				E86AF0AD9C3FBFF0E3DF05FF85A7FA90 /* Support Files */,
+				6E12204FF929838E56B0FE9A962EDBEB /* Toos */,
+			);
+			name = CHBaseAndToos;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E86AF0AD9C3FBFF0E3DF05FF85A7FA90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F652584455864F9441625BC374DC8DA /* CHBaseAndToos-dummy.m */,
+				FFFE9C7CE4255A5FF9403244AF4FFD82 /* CHBaseAndToos-prefix.pch */,
+				6F3D2C4ED9FE9F4EEBFE0269437CA405 /* CHBaseAndToos.debug.xcconfig */,
+				E31B57B8903125A8C49F93E2084DC8B9 /* CHBaseAndToos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "CHBeeHiveSuperProject/Pods/Target Support Files/CHBaseAndToos";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,24 +427,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E4DBCA6418B737D0B78955246D6C252 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB567673F55DD3A6F5347F0A751AA0DC /* BHService.h in Headers */,
+				A08009F9E00C1180D7C4DFFA0992225F /* CHBaseNavigationBar.h in Headers */,
+				63582234F87E68FE88C92A99E9AB054F /* MacroHeader.h in Headers */,
+				B71CD5987F6EDFBD0F8FBF3F1713DD44 /* TextFontColorMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93B154B5C0316A207F51C0CA794FDF82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E807887BE232EF666CBAABA7DBB17183 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				215C833A771754B62B6D385B8C1B4190 /* BHService.h in Headers */,
-				5506550639F302B0E3E5338DDE86AD5D /* CHBaseNavigationBar.h in Headers */,
-				C7C3ED995EE96431F8DCE9920120FC4C /* CHBaseNavigatonViewController.h in Headers */,
-				45587AF98A1922A54821F47ED6317CD5 /* CHBaseTableViewController.h in Headers */,
-				981173AD91922AF9981C059FAF4D5B6A /* CHBaseViewController.h in Headers */,
-				A6C472D16529B41C138311BB69D622E4 /* MacroHeader.h in Headers */,
-				F15D87861A26576B1844E30E22B054D7 /* TextFontColorMacro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,8 +473,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				07DE5EB9DC492C53B61951AC130A77DB /* PBXTargetDependency */,
-				5859EDA1ED617B991373BE1BB0A7A700 /* PBXTargetDependency */,
+				AB71AE753CEEAFB949C166C4BEB235E7 /* PBXTargetDependency */,
+				72DB5F600EE728189AB110ED2461A86D /* PBXTargetDependency */,
 			);
 			name = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests";
 			productName = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests";
@@ -539,8 +509,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				C11DAB00A771E36C3553DDFF3F6F2AA8 /* PBXTargetDependency */,
-				8F31D73BE0D27BB4442B77174A04220A /* PBXTargetDependency */,
+				1226D8F96EB69C03CCFECF19C9A8760D /* PBXTargetDependency */,
+				1C2EFD38AEAAE45DD40C9EFFF5261B6E /* PBXTargetDependency */,
 			);
 			name = "Pods-CHBeeHiveSuperProject";
 			productName = "Pods-CHBeeHiveSuperProject";
@@ -549,11 +519,11 @@
 		};
 		C2E99EF327EB901AED69289FB2B787A8 /* CHBaseAndToos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6336277D017F156F2E57EA9080C2616F /* Build configuration list for PBXNativeTarget "CHBaseAndToos" */;
+			buildConfigurationList = 211412EF3B6497B87ADDCA8EB35555B1 /* Build configuration list for PBXNativeTarget "CHBaseAndToos" */;
 			buildPhases = (
-				E807887BE232EF666CBAABA7DBB17183 /* Headers */,
-				41291FF9F029090FA91D9B8B956B68E1 /* Sources */,
-				F532C499AF9734FF1F639B374CDC1263 /* Frameworks */,
+				6E4DBCA6418B737D0B78955246D6C252 /* Headers */,
+				97F4BF842F292DD5BC794B963D084F0B /* Sources */,
+				9D22B731E8D45F80D464836B21750C55 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -575,7 +545,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1B6B1623E5C15019BEC1DBE0074D73B5 /* PBXTargetDependency */,
+				9CFD0E1862DB2E90821AF79FC9B00554 /* PBXTargetDependency */,
 			);
 			name = "Pods-CHBeeHiveSuperProjectTests";
 			productName = "Pods-CHBeeHiveSuperProjectTests";
@@ -614,18 +584,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41291FF9F029090FA91D9B8B956B68E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC01538239CCE0EB002750BF9DFB03E3 /* CHBaseAndToos-dummy.m in Sources */,
-				A96EA3D7CAE20FA4FF28F6AA9FFFCB46 /* CHBaseNavigationBar.m in Sources */,
-				A709B7FA141B9C465CA8C148C40F797B /* CHBaseNavigatonViewController.m in Sources */,
-				CF0E395A2FA2C1C014DFB0F5A6A58A03 /* CHBaseTableViewController.m in Sources */,
-				8BDD6D27BA860CEEB5D8A976E7D6F42F /* CHBaseViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		556255BD8EC7FD3B22931D2068260554 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -641,6 +599,15 @@
 				C40E4C6A83938421D86F5E171DFC1649 /* BHServiceManager.m in Sources */,
 				420A9D20C74D661F8314C0999AAAB18D /* BHTimeProfiler.m in Sources */,
 				9C6A921FACB8A851BDA4145B728DEDB1 /* BHWatchDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F4BF842F292DD5BC794B963D084F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74976DAF6784DB886F17217E7415B0 /* CHBaseAndToos-dummy.m in Sources */,
+				7E408803F4B0133E7D6A2D5F0B2F7499 /* CHBaseNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,35 +638,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07DE5EB9DC492C53B61951AC130A77DB /* PBXTargetDependency */ = {
+		1226D8F96EB69C03CCFECF19C9A8760D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BeeHive;
 			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
-			targetProxy = 5BCC3278AEC9321CA0316C18887623D1 /* PBXContainerItemProxy */;
+			targetProxy = 73EA776D8BA9BEE79C7A948472902DF2 /* PBXContainerItemProxy */;
 		};
-		1B6B1623E5C15019BEC1DBE0074D73B5 /* PBXTargetDependency */ = {
+		1C2EFD38AEAAE45DD40C9EFFF5261B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHBaseAndToos;
+			target = C2E99EF327EB901AED69289FB2B787A8 /* CHBaseAndToos */;
+			targetProxy = 6D6C2F03B8542D75F16432307546B540 /* PBXContainerItemProxy */;
+		};
+		72DB5F600EE728189AB110ED2461A86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHBaseAndToos;
+			target = C2E99EF327EB901AED69289FB2B787A8 /* CHBaseAndToos */;
+			targetProxy = C41C19E57ECA1EA877569C228B1B41A1 /* PBXContainerItemProxy */;
+		};
+		9CFD0E1862DB2E90821AF79FC9B00554 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CHBeeHiveSuperProject";
 			target = BA4832D9FB93D2760969C904A2209AB2 /* Pods-CHBeeHiveSuperProject */;
-			targetProxy = CC19B12312B9B63BF2EDAD15D34BE753 /* PBXContainerItemProxy */;
+			targetProxy = C0AFA71F642F84BA0A0089164DCF0B05 /* PBXContainerItemProxy */;
 		};
-		5859EDA1ED617B991373BE1BB0A7A700 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CHBaseAndToos;
-			target = C2E99EF327EB901AED69289FB2B787A8 /* CHBaseAndToos */;
-			targetProxy = DD1D8902FDD2345AF73C782D38029951 /* PBXContainerItemProxy */;
-		};
-		8F31D73BE0D27BB4442B77174A04220A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CHBaseAndToos;
-			target = C2E99EF327EB901AED69289FB2B787A8 /* CHBaseAndToos */;
-			targetProxy = 3785484D64742341FCC30FD031BB83E1 /* PBXContainerItemProxy */;
-		};
-		C11DAB00A771E36C3553DDFF3F6F2AA8 /* PBXTargetDependency */ = {
+		AB71AE753CEEAFB949C166C4BEB235E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BeeHive;
 			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
-			targetProxy = 3AD03B92C70CD581EC7896518F0FA8E0 /* PBXContainerItemProxy */;
+			targetProxy = 40CDF8485C30EC7E5232E87C4D4D1232 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -856,6 +823,29 @@
 			};
 			name = Release;
 		};
+		7476D64AF35D6CF1A631DB7006D5D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31B57B8903125A8C49F93E2084DC8B9 /* CHBaseAndToos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CHBaseAndToos/CHBaseAndToos-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CHBaseAndToos;
+				PRODUCT_NAME = CHBaseAndToos;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		7E2F77D65F45778541D586AB7485439F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAEB4EA189325E96B80BE32DAB0676F0 /* Pods-CHBeeHiveSuperProject.debug.xcconfig */;
@@ -892,29 +882,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		99E80FB672112559AFAB76D237777B75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4524782BF11786E4C21F182F8CCCD8C1 /* CHBaseAndToos.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CHBaseAndToos/CHBaseAndToos-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CHBaseAndToos;
-				PRODUCT_NAME = CHBaseAndToos;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1023,9 +990,9 @@
 			};
 			name = Release;
 		};
-		F6FD4294541E3B35D8D0F14CC62DA7C6 /* Debug */ = {
+		EF11C9427D5AAD04DB7B38E6B90B64EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A34F1966A416B3682B361F66ABA57CB /* CHBaseAndToos.debug.xcconfig */;
+			baseConfigurationReference = 6F3D2C4ED9FE9F4EEBFE0269437CA405 /* CHBaseAndToos.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1057,20 +1024,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		211412EF3B6497B87ADDCA8EB35555B1 /* Build configuration list for PBXNativeTarget "CHBaseAndToos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF11C9427D5AAD04DB7B38E6B90B64EE /* Debug */,
+				7476D64AF35D6CF1A631DB7006D5D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6336277D017F156F2E57EA9080C2616F /* Build configuration list for PBXNativeTarget "CHBaseAndToos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6FD4294541E3B35D8D0F14CC62DA7C6 /* Debug */,
-				99E80FB672112559AFAB76D237777B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
