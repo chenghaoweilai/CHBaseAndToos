@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		488649FE2898FF878C6EC107 /* libPods-CHBeeHiveSuperProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD760D3D1840D5ECE998558 /* libPods-CHBeeHiveSuperProjectTests.a */; };
+		5191ACA3E290AAD634BFEDAE /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AA9164B6FE18047F893CDF /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a */; };
+		6E415CE22653BACC00662DDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E415CE12653BACC00662DDA /* ViewController.m */; };
+		6E415CE52653BACC00662DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E415CE32653BACC00662DDA /* Main.storyboard */; };
+		6E415CE72653BACE00662DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E415CE62653BACE00662DDA /* Assets.xcassets */; };
+		6E415CEA2653BACE00662DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E415CE82653BACE00662DDA /* LaunchScreen.storyboard */; };
+		6E415CED2653BACF00662DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E415CEC2653BACF00662DDA /* main.m */; };
+		6E415CF72653BACF00662DDA /* CHBeeHiveSuperProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E415CF62653BACF00662DDA /* CHBeeHiveSuperProjectTests.m */; };
+		6E415D022653BACF00662DDA /* CHBeeHiveSuperProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E415D012653BACF00662DDA /* CHBeeHiveSuperProjectUITests.m */; };
+		6E415D1E2653C02C00662DDA /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E415D1D2653C02C00662DDA /* CHAppDelegate.m */; };
+		6E415D482653C79E00662DDA /* CHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E415D472653C79E00662DDA /* CHHomeViewController.m */; };
+		E28F9B9EF0D73029F2AFC72D /* libPods-CHBeeHiveSuperProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B3A0797F9B3D36981070B3 /* libPods-CHBeeHiveSuperProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E415CF32653BACF00662DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E415CCF2653BACC00662DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E415CD62653BACC00662DDA;
+			remoteInfo = CHBeeHiveSuperProject;
+		};
+		6E415CFE2653BACF00662DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E415CCF2653BACC00662DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E415CD62653BACC00662DDA;
+			remoteInfo = CHBeeHiveSuperProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CFDD557058AF691A03DD45 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15EC1DA62995DAAF4A6DCD35 /* Pods-CHBeeHiveSuperProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProject.release.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProject/Pods-CHBeeHiveSuperProject.release.xcconfig"; sourceTree = "<group>"; };
+		23C7C347AC6BDDB0D7D96381 /* Pods-CHBeeHiveSuperProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProjectTests.release.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProjectTests/Pods-CHBeeHiveSuperProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E415CD72653BACC00662DDA /* CHBeeHiveSuperProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHBeeHiveSuperProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E415CE02653BACC00662DDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E415CE12653BACC00662DDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E415CE42653BACC00662DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E415CE62653BACE00662DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E415CE92653BACE00662DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E415CEB2653BACE00662DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E415CEC2653BACF00662DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E415CF22653BACF00662DDA /* CHBeeHiveSuperProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHBeeHiveSuperProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E415CF62653BACF00662DDA /* CHBeeHiveSuperProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHBeeHiveSuperProjectTests.m; sourceTree = "<group>"; };
+		6E415CF82653BACF00662DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E415CFD2653BACF00662DDA /* CHBeeHiveSuperProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHBeeHiveSuperProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E415D012653BACF00662DDA /* CHBeeHiveSuperProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHBeeHiveSuperProjectUITests.m; sourceTree = "<group>"; };
+		6E415D032653BACF00662DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E415D1C2653C02C00662DDA /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		6E415D1D2653C02C00662DDA /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		6E415D462653C79E00662DDA /* CHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHHomeViewController.h; sourceTree = "<group>"; };
+		6E415D472653C79E00662DDA /* CHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHHomeViewController.m; sourceTree = "<group>"; };
+		6E415D4F2653C89800662DDA /* CHHomeViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHHomeViewProtocol.h; sourceTree = "<group>"; };
+		6E415DAC2654E1C200662DDA /* TextFontColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFontColorMacro.h; sourceTree = "<group>"; };
+		704D5520BC04A065FEF0E240 /* Pods-CHBeeHiveSuperProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProjectTests/Pods-CHBeeHiveSuperProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		729C17037E5427A49CE7F474 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9AA9164B6FE18047F893CDF /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B3A0797F9B3D36981070B3 /* libPods-CHBeeHiveSuperProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHBeeHiveSuperProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD760D3D1840D5ECE998558 /* libPods-CHBeeHiveSuperProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHBeeHiveSuperProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9E1B193D250F8E25CAE390 /* Pods-CHBeeHiveSuperProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProject.debug.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProject/Pods-CHBeeHiveSuperProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E415CD42653BACC00662DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28F9B9EF0D73029F2AFC72D /* libPods-CHBeeHiveSuperProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E415CEF2653BACF00662DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488649FE2898FF878C6EC107 /* libPods-CHBeeHiveSuperProjectTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E415CFA2653BACF00662DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5191ACA3E290AAD634BFEDAE /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E415CCE2653BACC00662DDA = {
+			isa = PBXGroup;
+			children = (
+				6E415CD92653BACC00662DDA /* CHBeeHiveSuperProject */,
+				6E415CF52653BACF00662DDA /* CHBeeHiveSuperProjectTests */,
+				6E415D002653BACF00662DDA /* CHBeeHiveSuperProjectUITests */,
+				6E415CD82653BACC00662DDA /* Products */,
+				B3D924391649B9E8E9C4C809 /* Pods */,
+				A9D6B841BF290DFC50D2B199 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E415CD82653BACC00662DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E415CD72653BACC00662DDA /* CHBeeHiveSuperProject.app */,
+				6E415CF22653BACF00662DDA /* CHBeeHiveSuperProjectTests.xctest */,
+				6E415CFD2653BACF00662DDA /* CHBeeHiveSuperProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E415CD92653BACC00662DDA /* CHBeeHiveSuperProject */ = {
+			isa = PBXGroup;
+			children = (
+				6E415DAB2654E1C200662DDA /* CHBaseAndToos */,
+				6E415CE02653BACC00662DDA /* ViewController.h */,
+				6E415CE12653BACC00662DDA /* ViewController.m */,
+				6E415D462653C79E00662DDA /* CHHomeViewController.h */,
+				6E415D472653C79E00662DDA /* CHHomeViewController.m */,
+				6E415D4F2653C89800662DDA /* CHHomeViewProtocol.h */,
+				6E415CE32653BACC00662DDA /* Main.storyboard */,
+				6E415CE62653BACE00662DDA /* Assets.xcassets */,
+				6E415CE82653BACE00662DDA /* LaunchScreen.storyboard */,
+				6E415CEB2653BACE00662DDA /* Info.plist */,
+				6E415CEC2653BACF00662DDA /* main.m */,
+				6E415D1C2653C02C00662DDA /* CHAppDelegate.h */,
+				6E415D1D2653C02C00662DDA /* CHAppDelegate.m */,
+			);
+			path = CHBeeHiveSuperProject;
+			sourceTree = "<group>";
+		};
+		6E415CF52653BACF00662DDA /* CHBeeHiveSuperProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E415CF62653BACF00662DDA /* CHBeeHiveSuperProjectTests.m */,
+				6E415CF82653BACF00662DDA /* Info.plist */,
+			);
+			path = CHBeeHiveSuperProjectTests;
+			sourceTree = "<group>";
+		};
+		6E415D002653BACF00662DDA /* CHBeeHiveSuperProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E415D012653BACF00662DDA /* CHBeeHiveSuperProjectUITests.m */,
+				6E415D032653BACF00662DDA /* Info.plist */,
+			);
+			path = CHBeeHiveSuperProjectUITests;
+			sourceTree = "<group>";
+		};
+		6E415DAB2654E1C200662DDA /* CHBaseAndToos */ = {
+			isa = PBXGroup;
+			children = (
+				6E415DAC2654E1C200662DDA /* TextFontColorMacro.h */,
+			);
+			path = CHBaseAndToos;
+			sourceTree = "<group>";
+		};
+		A9D6B841BF290DFC50D2B199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B3A0797F9B3D36981070B3 /* libPods-CHBeeHiveSuperProject.a */,
+				A9AA9164B6FE18047F893CDF /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a */,
+				FAD760D3D1840D5ECE998558 /* libPods-CHBeeHiveSuperProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3D924391649B9E8E9C4C809 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE9E1B193D250F8E25CAE390 /* Pods-CHBeeHiveSuperProject.debug.xcconfig */,
+				15EC1DA62995DAAF4A6DCD35 /* Pods-CHBeeHiveSuperProject.release.xcconfig */,
+				10CFDD557058AF691A03DD45 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig */,
+				729C17037E5427A49CE7F474 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig */,
+				704D5520BC04A065FEF0E240 /* Pods-CHBeeHiveSuperProjectTests.debug.xcconfig */,
+				23C7C347AC6BDDB0D7D96381 /* Pods-CHBeeHiveSuperProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E415CD62653BACC00662DDA /* CHBeeHiveSuperProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E415D062653BACF00662DDA /* Build configuration list for PBXNativeTarget "CHBeeHiveSuperProject" */;
+			buildPhases = (
+				4A3838FA4837C77F850ECEA3 /* [CP] Check Pods Manifest.lock */,
+				6E415CD32653BACC00662DDA /* Sources */,
+				6E415CD42653BACC00662DDA /* Frameworks */,
+				6E415CD52653BACC00662DDA /* Resources */,
+				792EF72575EB551C99FBF514 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHBeeHiveSuperProject;
+			productName = CHBeeHiveSuperProject;
+			productReference = 6E415CD72653BACC00662DDA /* CHBeeHiveSuperProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E415CF12653BACF00662DDA /* CHBeeHiveSuperProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E415D092653BACF00662DDA /* Build configuration list for PBXNativeTarget "CHBeeHiveSuperProjectTests" */;
+			buildPhases = (
+				6C44BF35FFA8D6AF8003C5F8 /* [CP] Check Pods Manifest.lock */,
+				6E415CEE2653BACF00662DDA /* Sources */,
+				6E415CEF2653BACF00662DDA /* Frameworks */,
+				6E415CF02653BACF00662DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E415CF42653BACF00662DDA /* PBXTargetDependency */,
+			);
+			name = CHBeeHiveSuperProjectTests;
+			productName = CHBeeHiveSuperProjectTests;
+			productReference = 6E415CF22653BACF00662DDA /* CHBeeHiveSuperProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E415CFC2653BACF00662DDA /* CHBeeHiveSuperProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E415D0C2653BACF00662DDA /* Build configuration list for PBXNativeTarget "CHBeeHiveSuperProjectUITests" */;
+			buildPhases = (
+				F967C49BBD853EAE2501A6D4 /* [CP] Check Pods Manifest.lock */,
+				6E415CF92653BACF00662DDA /* Sources */,
+				6E415CFA2653BACF00662DDA /* Frameworks */,
+				6E415CFB2653BACF00662DDA /* Resources */,
+				06A34AD78C73819C1F690167 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E415CFF2653BACF00662DDA /* PBXTargetDependency */,
+			);
+			name = CHBeeHiveSuperProjectUITests;
+			productName = CHBeeHiveSuperProjectUITests;
+			productReference = 6E415CFD2653BACF00662DDA /* CHBeeHiveSuperProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E415CCF2653BACC00662DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6E415CD62653BACC00662DDA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6E415CF12653BACF00662DDA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6E415CD62653BACC00662DDA;
+					};
+					6E415CFC2653BACF00662DDA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6E415CD62653BACC00662DDA;
+					};
+				};
+			};
+			buildConfigurationList = 6E415CD22653BACC00662DDA /* Build configuration list for PBXProject "CHBeeHiveSuperProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E415CCE2653BACC00662DDA;
+			productRefGroup = 6E415CD82653BACC00662DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E415CD62653BACC00662DDA /* CHBeeHiveSuperProject */,
+				6E415CF12653BACF00662DDA /* CHBeeHiveSuperProjectTests */,
+				6E415CFC2653BACF00662DDA /* CHBeeHiveSuperProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E415CD52653BACC00662DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E415CEA2653BACE00662DDA /* LaunchScreen.storyboard in Resources */,
+				6E415CE72653BACE00662DDA /* Assets.xcassets in Resources */,
+				6E415CE52653BACC00662DDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E415CF02653BACF00662DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E415CFB2653BACF00662DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A34AD78C73819C1F690167 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A3838FA4837C77F850ECEA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHBeeHiveSuperProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C44BF35FFA8D6AF8003C5F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHBeeHiveSuperProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792EF72575EB551C99FBF514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHBeeHiveSuperProject/Pods-CHBeeHiveSuperProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHBeeHiveSuperProject/Pods-CHBeeHiveSuperProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHBeeHiveSuperProject/Pods-CHBeeHiveSuperProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F967C49BBD853EAE2501A6D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E415CD32653BACC00662DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E415D1E2653C02C00662DDA /* CHAppDelegate.m in Sources */,
+				6E415CE22653BACC00662DDA /* ViewController.m in Sources */,
+				6E415D482653C79E00662DDA /* CHHomeViewController.m in Sources */,
+				6E415CED2653BACF00662DDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E415CEE2653BACF00662DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E415CF72653BACF00662DDA /* CHBeeHiveSuperProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E415CF92653BACF00662DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E415D022653BACF00662DDA /* CHBeeHiveSuperProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E415CF42653BACF00662DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E415CD62653BACC00662DDA /* CHBeeHiveSuperProject */;
+			targetProxy = 6E415CF32653BACF00662DDA /* PBXContainerItemProxy */;
+		};
+		6E415CFF2653BACF00662DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E415CD62653BACC00662DDA /* CHBeeHiveSuperProject */;
+			targetProxy = 6E415CFE2653BACF00662DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E415CE32653BACC00662DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E415CE42653BACC00662DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E415CE82653BACE00662DDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E415CE92653BACE00662DDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E415D042653BACF00662DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E415D052653BACF00662DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E415D072653BACF00662DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9E1B193D250F8E25CAE390 /* Pods-CHBeeHiveSuperProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = CHBeeHiveSuperProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenghao.CHBeeHiveSuperProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E415D082653BACF00662DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EC1DA62995DAAF4A6DCD35 /* Pods-CHBeeHiveSuperProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = CHBeeHiveSuperProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenghao.CHBeeHiveSuperProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E415D0A2653BACF00662DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704D5520BC04A065FEF0E240 /* Pods-CHBeeHiveSuperProjectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CHBeeHiveSuperProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenghao.CHBeeHiveSuperProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHBeeHiveSuperProject.app/CHBeeHiveSuperProject";
+			};
+			name = Debug;
+		};
+		6E415D0B2653BACF00662DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C7C347AC6BDDB0D7D96381 /* Pods-CHBeeHiveSuperProjectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CHBeeHiveSuperProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenghao.CHBeeHiveSuperProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHBeeHiveSuperProject.app/CHBeeHiveSuperProject";
+			};
+			name = Release;
+		};
+		6E415D0D2653BACF00662DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CFDD557058AF691A03DD45 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CHBeeHiveSuperProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenghao.CHBeeHiveSuperProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHBeeHiveSuperProject;
+			};
+			name = Debug;
+		};
+		6E415D0E2653BACF00662DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729C17037E5427A49CE7F474 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CHBeeHiveSuperProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenghao.CHBeeHiveSuperProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHBeeHiveSuperProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E415CD22653BACC00662DDA /* Build configuration list for PBXProject "CHBeeHiveSuperProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E415D042653BACF00662DDA /* Debug */,
+				6E415D052653BACF00662DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E415D062653BACF00662DDA /* Build configuration list for PBXNativeTarget "CHBeeHiveSuperProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E415D072653BACF00662DDA /* Debug */,
+				6E415D082653BACF00662DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E415D092653BACF00662DDA /* Build configuration list for PBXNativeTarget "CHBeeHiveSuperProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E415D0A2653BACF00662DDA /* Debug */,
+				6E415D0B2653BACF00662DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E415D0C2653BACF00662DDA /* Build configuration list for PBXNativeTarget "CHBeeHiveSuperProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E415D0D2653BACF00662DDA /* Debug */,
+				6E415D0E2653BACF00662DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E415CCF2653BACC00662DDA /* Project object */;
+}
