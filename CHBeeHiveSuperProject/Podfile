@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CHBeeHiveSuperProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  pod 'BeeHive'
+  pod "CHBaseAndToos", :path => "../"
+
+
+  # Pods for CHBeeHiveSuperProject
+
+  target 'CHBeeHiveSuperProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CHBeeHiveSuperProjectUITests' do
+    # Pods for testing
+  end
+
+end
