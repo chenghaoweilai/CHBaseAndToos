@@ -7,7 +7,7 @@
 //
 
 #import "CHBaseViewController.h"
-#import "TextFontColorMacro.h"
+//#import "TextFontColorMacro.h"
 @interface CHBaseViewController ()<CHNavigationBarDataSource, CHNavigationBarDelegate>
 @property (nonatomic, assign) BOOL isFirstLoad;
 
@@ -106,7 +106,7 @@
 
 - (UIColor *)navigationBarLineColor:(CHBaseNavigationBar *)navigationBar {
 //    return [UIColor yt_navLineColor];
-    return ColorDef0xf4f4f4;
+    return [UIColor blackColor];
 }
 
 - (BOOL)navigationBarNeedLine:(CHBaseNavigationBar *)navigationBar {
@@ -138,7 +138,7 @@
 }
 
 - (NSAttributedString *)attributeWithTitle:(NSString *)title {
-    NSDictionary *attributes = @{NSFontAttributeName : FontPFSCBold(18),
+    NSDictionary *attributes = @{NSFontAttributeName : [UIFont systemFontOfSize:18],
 //                                 NSForegroundColorAttributeName : [UIColor yt_navTitleColor]
                                  };
     NSAttributedString *string = [[NSAttributedString alloc] initWithString:title attributes:attributes];
