@@ -1,8 +1,0 @@
-//
-//  GeneralHeader.pch
-//  CHBeeHiveSuperProject
-//
-//  Created by 程浩MAC on 2021/5/19.
-//
-
-#import <TextFontColorMacro.h>
