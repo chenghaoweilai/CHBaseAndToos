@@ -61,6 +61,7 @@
 		6E415D462653C79E00662DDA /* CHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHHomeViewController.h; sourceTree = "<group>"; };
 		6E415D472653C79E00662DDA /* CHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHHomeViewController.m; sourceTree = "<group>"; };
 		6E415D4F2653C89800662DDA /* CHHomeViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHHomeViewProtocol.h; sourceTree = "<group>"; };
+		6E415D712654C1BB00662DDA /* GeneralHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralHeader.pch; sourceTree = "<group>"; };
 		704D5520BC04A065FEF0E240 /* Pods-CHBeeHiveSuperProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProjectTests/Pods-CHBeeHiveSuperProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		729C17037E5427A49CE7F474 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A9AA9164B6FE18047F893CDF /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +135,7 @@
 				6E415CEC2653BACF00662DDA /* main.m */,
 				6E415D1C2653C02C00662DDA /* CHAppDelegate.h */,
 				6E415D1D2653C02C00662DDA /* CHAppDelegate.m */,
+				6E415D712654C1BB00662DDA /* GeneralHeader.pch */,
 			);
 			path = CHBeeHiveSuperProject;
 			sourceTree = "<group>";
@@ -593,7 +595,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/chenghaomac/Desktop/CHBeeHiveSuperProject/CHBeeHiveSuperProject/CHBaseAndToos/Toos/GeneralHeader.pch;
+				GCC_PREFIX_HEADER = /Users/chenghaomac/Desktop/CHBaseAndToos/CHBeeHiveSuperProject/CHBeeHiveSuperProject/GeneralHeader.pch;
 				INFOPLIST_FILE = CHBeeHiveSuperProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,7 +615,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/chenghaomac/Desktop/CHBeeHiveSuperProject/CHBeeHiveSuperProject/CHBaseAndToos/Toos/GeneralHeader.pch;
+				GCC_PREFIX_HEADER = /Users/chenghaomac/Desktop/CHBaseAndToos/CHBeeHiveSuperProject/CHBeeHiveSuperProject/GeneralHeader.pch;
 				INFOPLIST_FILE = CHBeeHiveSuperProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -7,7 +7,7 @@
 //
 
 #import "CHBaseViewController.h"
-
+#import "TextFontColorMacro.h"
 @interface CHBaseViewController ()<CHNavigationBarDataSource, CHNavigationBarDelegate>
 @property (nonatomic, assign) BOOL isFirstLoad;
 
