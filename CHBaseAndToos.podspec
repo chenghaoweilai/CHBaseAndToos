@@ -18,11 +18,11 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/chenghaoweilai/CHBaseAndToos/"
   spec.license      = "MIT"
   spec.author       = { "ChengHao" => "chenghaoweilai@163.com" }
-  spec.source       = { :git => "https://github.com/chenghaoweilai/CHBaseAndToos.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/chenghaoweilai/CHBaseAndToos.git", :tag => "0.0.1" }
   spec.platform     = :ios, '8.0'
 
-  spec.source_files  = "CHBaseAndToos/*.{h,m}"
-  spec.frameworks = 'QuartzCore','UIKit'  
+  spec.source_files  = "CHBaseAndToos/**/*.{h,m}"
+  spec.frameworks = 'UIKit'  
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
