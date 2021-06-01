@@ -27,7 +27,6 @@ alpha:alp]
 
 // 随机色
 #define kRandomColor UIColorFromRGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
-#define kColorEggTest @"家长福利彩蛋"
 
 #pragma mark - App主题相关
 /**************************************************************/

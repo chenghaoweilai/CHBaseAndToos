@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/chenghaoweilai/CHBaseAndToos.git", :tag => "0.0.1" }
   spec.platform     = :ios, '9.0'
 
-  spec.source_files  = "CHBaseAndToos/CHBeeHiveSuperProject/CHBeeHiveSuperProject/CHBaseAndToos/*.{h,m}"
+  spec.source_files  = "CHBeeHiveSuperProject/CHBeeHiveSuperProject/CHBaseAndToos/*.{h,m}"
   spec.frameworks = 'UIKit'  
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

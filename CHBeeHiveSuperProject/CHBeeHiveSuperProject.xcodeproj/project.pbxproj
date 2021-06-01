@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		488649FE2898FF878C6EC107 /* libPods-CHBeeHiveSuperProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD760D3D1840D5ECE998558 /* libPods-CHBeeHiveSuperProjectTests.a */; };
 		5191ACA3E290AAD634BFEDAE /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AA9164B6FE18047F893CDF /* libPods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.a */; };
+		6E03ED1A2658FC4100DAEFA2 /* UIImage+CHMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E03ED192658FC4100DAEFA2 /* UIImage+CHMore.m */; };
+		6E03ED202658FDC300DAEFA2 /* UIButton+ImageTitleSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E03ED1E2658FDC200DAEFA2 /* UIButton+ImageTitleSpace.m */; };
 		6E415CE22653BACC00662DDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E415CE12653BACC00662DDA /* ViewController.m */; };
 		6E415CE52653BACC00662DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E415CE32653BACC00662DDA /* Main.storyboard */; };
 		6E415CE72653BACE00662DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E415CE62653BACE00662DDA /* Assets.xcassets */; };
@@ -42,6 +44,11 @@
 		10CFDD557058AF691A03DD45 /* Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests/Pods-CHBeeHiveSuperProject-CHBeeHiveSuperProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		15EC1DA62995DAAF4A6DCD35 /* Pods-CHBeeHiveSuperProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProject.release.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProject/Pods-CHBeeHiveSuperProject.release.xcconfig"; sourceTree = "<group>"; };
 		23C7C347AC6BDDB0D7D96381 /* Pods-CHBeeHiveSuperProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBeeHiveSuperProjectTests.release.xcconfig"; path = "Target Support Files/Pods-CHBeeHiveSuperProjectTests/Pods-CHBeeHiveSuperProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E03ED182658FC4100DAEFA2 /* UIImage+CHMore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CHMore.h"; sourceTree = "<group>"; };
+		6E03ED192658FC4100DAEFA2 /* UIImage+CHMore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CHMore.m"; sourceTree = "<group>"; };
+		6E03ED1E2658FDC200DAEFA2 /* UIButton+ImageTitleSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpace.m"; sourceTree = "<group>"; };
+		6E03ED1F2658FDC300DAEFA2 /* UIButton+ImageTitleSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpace.h"; sourceTree = "<group>"; };
+		6E03ED242658FE6F00DAEFA2 /* CHUtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHUtilsMacro.h; sourceTree = "<group>"; };
 		6E415CD72653BACC00662DDA /* CHBeeHiveSuperProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHBeeHiveSuperProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E415CE02653BACC00662DDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6E415CE12653BACC00662DDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -162,6 +169,11 @@
 			isa = PBXGroup;
 			children = (
 				6E415DAC2654E1C200662DDA /* TextFontColorMacro.h */,
+				6E03ED182658FC4100DAEFA2 /* UIImage+CHMore.h */,
+				6E03ED192658FC4100DAEFA2 /* UIImage+CHMore.m */,
+				6E03ED1F2658FDC300DAEFA2 /* UIButton+ImageTitleSpace.h */,
+				6E03ED1E2658FDC200DAEFA2 /* UIButton+ImageTitleSpace.m */,
+				6E03ED242658FE6F00DAEFA2 /* CHUtilsMacro.h */,
 			);
 			path = CHBaseAndToos;
 			sourceTree = "<group>";
@@ -429,6 +441,8 @@
 				6E415D1E2653C02C00662DDA /* CHAppDelegate.m in Sources */,
 				6E415CE22653BACC00662DDA /* ViewController.m in Sources */,
 				6E415D482653C79E00662DDA /* CHHomeViewController.m in Sources */,
+				6E03ED202658FDC300DAEFA2 /* UIButton+ImageTitleSpace.m in Sources */,
+				6E03ED1A2658FC4100DAEFA2 /* UIImage+CHMore.m in Sources */,
 				6E415CED2653BACF00662DDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
